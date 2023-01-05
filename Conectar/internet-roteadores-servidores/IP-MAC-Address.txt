@@ -1,0 +1,3 @@
+IP -  IP, ou Protocolo de Internet, é o “CPF” do seu dispositivo, responsável por identificar a máquina em uma rede interna.
+
+MAC Address - é o identificador único que é atribuído pelo fabricante a uma peça do hardware de rede (como uma placa de rede sem fio ou uma placa ethernet). MAC significa Media Access Control, ou controle de acesso ao meio, e cada identificador tem a intenção de ser único para um dispositivo em particular.

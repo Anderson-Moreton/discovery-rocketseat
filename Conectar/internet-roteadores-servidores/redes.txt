@@ -1,0 +1,3 @@
+Redes de Computadores - é uma malha que interliga milhares de sistemas computacionais para a transmissão de dados. Também conhecidos como nós, esses dispositivos interconectados enviam, recebem e trocam tráfego de dados, voz e vídeo, graças ao hardware e software que compõe o ambiente.
+
+Redes de Comunicação - são formadas por dois elementos básicos: um conjunto de nodos, encarregados de processar a informação que circula pela rede; um conjunto de ligações, por meio das quais os nodos são conectados entre si e configuram a rede propriamente dita.

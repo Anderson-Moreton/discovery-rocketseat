@@ -1,0 +1,9 @@
+Software - pode ser definido como um conjunto de instruções que permitem ao usuário controlar um aparelho eletrônico.
+
+Firmware - é um software no dispositivo de hardware que executa funções como tarefas básicas de entrada/saída e oferece as instruções necessárias para que o dispositivo se comunique com outros.
+
+Drivers - são programas responsáveis pela comunicação entre o sistema operacional de computador e o hardware conectado a ele.
+
+Sistema Operacional -  é um software, ou um conjunto de softwares, que tem como papel gerenciar e administrar todos os recursos presentes em um sistema.
+
+Programa - é um conjunto de instruções que descrevem uma tarefa a ser realizada por um computador.

@@ -1,0 +1,6 @@
+Memória RAM - Memória de Acesso Aleatório ou Random Access Memory, em inglês — permite a leitura e a escrita de arquivos. Ou seja, a sua função é possibilitar que o processador tenha acesso imediato aos dados que deseja, contribuindo para uma maior rapidez e capacidade de resposta das solicitações.
+
+HD e SSD - HD (Hard Disk) ou HDD (Hard Disk Drive) — é o dispositivo de armazenamento de dados mais utilizado nos computadores. 
+SSD (Solid State Drive ou unidade em estado sólido) é um componente de hardware que substitui o antigo HD (Hard Disk ou disco rígido) como unidade de armazenamento de dados nos PCs. Muito mais rápido, o SSD não possui discos físicos ou agulhas magnéticas, sendo capaz de acessar dados em uma fração de segundo e tornar seu computador mais ágil para abrir programas e executar tarefas.
+
+Processador - é a unidade central de processamento de um computador (CPU), que funciona como o cérebro do computador, pois interage e faz as conexões necessárias entre todos os programas instalados.

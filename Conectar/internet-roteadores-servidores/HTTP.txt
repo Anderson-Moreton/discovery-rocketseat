@@ -1,0 +1,3 @@
+HTTP - (Hypertext Transfer Protocol) é um protocolo de transferência que possibilita que as pessoas que inserem a URL do seu site na Web possam ver os conteúdos e dados que nele existem. 
+
+HTTPS - (Hypertext Transfer Protocol Secure) adiciona uma criptografia as informações enviadas ou recebidas de um site.
