@@ -1,0 +1,82 @@
+O que é um sistema operacional? - é um software, ou conjunto de softwares, cuja função é administrar e gerenciar os recursos de um sistema, desde componentes de hardware e sistemas de arquivos a programas de terceiros, estabelecendo a interface entre o computador e o usuário.
+
+
+Caracteristicas e objetivo de um sistema operacional.
+
+- Facil entendimento para o usuário;
+Experiência para o usuário;
+
+- Controle de hardware;
+Uso dos periféricos;
+Memória;
+HD;
+
+- Gerenciamento de softwares;
+Programas;
+
+
+Grupos de Sistemas Operacionais
+
+UNIX
+- Linux;
+- OS X;
+- Android;
+- IOS;
+
+Windows
+- Windows 7;
+- Windows 10;
+- Windows Server;
+
+
+Tipos de interfaces do usuário
+
+- GUI - Graphical User interface
+Interface gráfica, elementos gráficos
+ - Curosr do mouse ou touch;
+ - Área de trabalho;
+ - Criar arquivos e pastas;
+
+- CLI - Command-Line Interface
+ - Linha de comando;
+ - Emitir comandos em texto para o computador;
+
+
+ Módulos do Sistema Operacional
+
+ - Kerrnel - é o componente central do sistema operativo da maioria dos computadores; ele serve de ponte entre aplicativos e o processamento real de dados feito a nível de hardware.
+  - Primeiro módulo a ser iniciado;
+  - Permanece executando enquanto o S.O estiver ligado;
+  - Gerenciamento da memória, processos, armazenamento e dispositivos;
+
+
+- Gerenciador de tarefas
+ - Processo é um programa em execução
+ - Agendamento de processos (Scheduling);
+    - Qual processo está executando agora;
+ - Thread
+    - A divisão de um processo para melhor performace;
+    - Um pedacinho do processo;
+    - Poderá executar em paralelo;
+ - Multitarefa
+    - Multitasking;
+    - Várias tarefas podem ser executadas simultaneamente;
+        - Troca muito rápida entre elas;
+    - Tarefas em segundo plano;
+
+
+- Gerenciador de Arquivos
+  - File System
+  - Organização e armazenamento dos arquivos
+        - Vídeos, Imagens, Documentos;
+  - Diretórios (Pastas)
+  - Tipos de sistemas de arquivos   
+        - FAT, NTFS;
+        - ext3, ext4;
+        - HFS+, APFS;
+        - São criados quando formatamos o nosso disco, por exemplo;
+
+
+- Ferramentas de Gerenciamento
+    - Tarefas (Task manager, activity);
+    - Pacotes (Chocolatey, brew, apt, snap);

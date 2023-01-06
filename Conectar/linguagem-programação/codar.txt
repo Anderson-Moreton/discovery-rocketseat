@@ -1,0 +1,5 @@
+O que é codar?
+
+- Escrever para o computador;     
+- Seguir regras;
+- Linguagem Humana x Máquina;
