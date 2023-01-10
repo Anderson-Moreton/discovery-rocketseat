@@ -1,0 +1,5 @@
+O que é Webpage? - Uma página de rede, página de web ou página web é uma coleção específica de informações fornecidas por um site e exibidas a um usuário em um navegador web.
+
+Website estático - é aquele que não conta com ferramentas de gerenciamento para alterações, mudanças ou reformulações realmente significativas de conteúdo, sem alteração do código fonte.
+
+Website dinâmico - é aquele que não conta com ferramentas de gerenciamento para alterações, mudanças ou reformulações realmente significativas de conteúdo, sem alteração do código fonte.

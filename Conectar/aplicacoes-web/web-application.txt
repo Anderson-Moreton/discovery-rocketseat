@@ -1,0 +1,1 @@
+o que é Web Application? - é um site na internet que se comporta como um aplicativo. É acessado como qualquer outro site pelo navegador e tem comportamento responsivo (layout adaptado para smartphones), o Facebook é um exemplo. Pode-se criar um ícone do site na tela inicial do smartphone para que o Web App seja diretamente acessado.
