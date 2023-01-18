@@ -1,0 +1,105 @@
+O que é CSS?
+
+* Cascading Style Sheet
+* Código para criar estilos no HTML
+* HTML é a estrutura, e o CSS é a beleza
+* Não é uma linguagem de programação
+* É uma linguagem style sheet
+
+
+Comentários em CSS
+
+/*Esta é a forma de comentar em CSS*/
+
+
+Anatomia do CSS
+
+h1 {
+    color: blue;
+}
+
+* Selector
+* Declaration 
+* Properties
+* Property Value
+
+
+Selectors
+
+* Global selector `*`
+* Element/type selector `h1, h2, p, div`
+* Id selector `#box, #container`
+* Class selector `.red, .m-4`
+* Attribute selector, Pseudo-class, Pseudo-element, e outros
+
+
+Box Model
+
+é um módulo de CSS que define caixas retangulares, incluindo preenchimento (padding) e margem (margin), que são gerados por elementos e dispostos de acordo com o modelo de formato visual.
+
+
+A Cascata (Cascading)
+
+A escolha do browser de qual regra aplicar, caso haja muitas regras para o mesmo elemento.
+
+Seu estilo é lido de cima para baixo.
+
+É levado em consideração 3 fatores
+1 - Origem do estilo
+2 - Especificidade
+3 - Importãncia
+
+Origem do estilo
+
+inline > tag style > tag link
+
+
+Especificidade
+
+É um cálculo matemático, onde, cada tipo de seletor e origem do estilo, possuem valores a serem considerados.
+
+0. Universal selector, combinators e negation pseudo-class (:not())
+1. Element type selector e pseudo-elements (::before, ::after)
+10. Classes e attribute selectors ([type="radio])
+100. ID selector
+1000. Inline
+
+
+Regra !important
+
+* Cuidado, evite o uso
+* Não é considerado uma boa prática
+* Quebra o fluxo natural da cascata
+
+
+At-rules
+
+* Esta relacionado ao comportamento do CSS
+* Começa com sinal de @ seguido do identificador e valor
+
+Exemplos comuns
+
+- @important   Incluir um CSS externo
+- @media       Regras condicionais para dispositivos
+- @font-face   Fontes externas
+- @keyframes   Animation
+
+
+Shorthand
+
+font: italic bold .8rem/1.2 Arial, sans-sefir;
+
+* Junção de propriedades
+* Resumido
+* Legível
+
+
+Funções
+
+{
+    color: rgb(255, 0, 100);
+    width: calc(100% - 10px);
+}
+
+* Nome seguido de abre e fecha parantêses 
+* Recebe argumentos
