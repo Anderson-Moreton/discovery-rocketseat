@@ -103,3 +103,123 @@ Funções
 
 * Nome seguido de abre e fecha parantêses 
 * Recebe argumentos
+
+
+Valores e unidades de medida
+
+* Cada propriedade possui valores - property: value;
+* Estudo constante a fim de entender as propriedades e seus valores.
+
+
+Tipos numéricos
+
+* Integer - Número inteiro como -10 ou 223
+* Number - Númeor decimal como -2.4, 64 ou 0.234
+* Dimension É um number com uma unidade junto: 90 deg, 2s, 8px
+* Percentagem Representa a fração de outro número: 50%
+
+Unidade comuns
+
+* length - Representa um valor de distância: px, em, vw
+* angle - Representa um ângulo: deg, rad, turn
+* time - Representa um tempo: s, mesmo
+* resolution - Representa resoluções para dispositivos: dpi
+
+Distâncias absolutas - length
+
+São fixas e não alteram seu valor.
+
+Unidade         Nome                   Equivalência
+cm              Centímetros            1cm = 96px/2.54
+in              Inches (Polegadas)     1in = 2.54cm = 96px
+px              Pixels                 1px = 1/96th of 1in
+
+O mais comun e mais utilizado é o px
+Não recomendamos usar cm
+
+Distâncias relativas
+
+São relativas a algum outro valor, pode ser o elemento pai, ou root, ou o tamanho da tela.
+
+* Beneficio: Maior adaptação aos diferentes tipos de tela
+
+Unidade       Relativo a
+em            Tamanho da font do pai    
+rem           Tamanho da font do elemento raiz (root/html)
+vw            1% da viewport width.
+vh            1% da viewport heigth.
+
+Porcentagens %
+
+* Em muitos casos é tratado da mesma maneiras que as distâncias length
+* Sempre será relativo a algum valor.
+
+Posições
+
+Position representa um conjunto de coordenadas 2D
+- top. rigth, bottom, left e Centímetros
+
+Usado para alguns tipos de propriedades
+
+
+Funções
+
+Em programação, funções são reconhecidas pór causar um reaproveitamento de código.
+
+* rgb()
+* hsl()
+* url()
+* calc()
+
+Strings e identificadores
+
+* Strings: Textos envolto em aspas
+* Identificadores: red, black, gold;
+
+
+Box Model
+
+O que é? 
+Uma caixa retangular. essa caixa possui propriedades de uma caixa (2D)
+
+- Tamanho (largura x altura)  width | heigth
+- Conteúdo                    content
+- border                      border
+- Preenchimento interno       padding
+- Espaços fora da caixa       margin
+
+Cada elemtno na sua página , será considerado uma caixa.
+
+
+** box-sizing 
+
+é utilizada para alterar a propriedade padrão da box model, usada para calcular larguras (widths) e alturas (heights) dos elementos. É possível usar essa propriedade para emular o comportamento dos navegadores (browsers) que não suportam corretamente a especificação da propriedade CSS box model.
+
+
+** display: block vs display: inlene
+
+block                                   inline
+-----------------------------------------------------------------------------    
+Ocupa toda a linha, colocando o         Elemento ao lado do outro
+próximo elemento abaixo desse.
+width e heigth são respeitados          width e heigth não funcionam
+padding, margin, border irão funci-     Somente valores horizontais de margin
+onar normalmente.                       padding e border.
+
+
+** margin - Espaço entre os elementos
+
+-margin-top | margin-rigth | margin-bottom | margin-left
+
+
+** padding - Preenchimento interno da caixa
+
+- padding-top | padding-rigth | padding-bottom | padding-left
+
+
+** border - São as bordas da caixa
+
+- value: border-style | border-width | border-color
+    - style: solid | dotted | dashed | double | groove | ridge | inset | outset
+    - width: length
+    - color: color
