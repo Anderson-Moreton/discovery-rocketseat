@@ -223,3 +223,25 @@ onar normalmente.                       padding e border.
     - style: solid | dotted | dashed | double | groove | ridge | inset | outset
     - width: length
     - color: color
+
+** Cores
+
+Usamos CSS para alterar cores do nosso documento.
+
+- Tipos
+
+* background-color
+* color (Para textos)
+* border-color
+
+- Valores
+
+* palavra-chave (blue, transparent)
+* hexadecimal (#089)
+* funções: rgb, rgba, hsl, hsla
+
+** background
+
+- Define um fundo para o nosso elemento
+- Sua área de atuação é a caixa toda
+- Por padrão, é transparente
