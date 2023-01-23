@@ -1,0 +1,40 @@
+** Page layouts
+
+- Tables
+- Floats e clear
+- Framenworks e Grid Systems
+- Flexbox
+- Grid
+
+
+** Posicionamentos
+
+Controlar onde, na página, o elemento irá ficar, alterando o fluxo normal dos elementos.
+
+- name: position
+- value: static|relative|absolute|fixed
+
+
+** Flexbox
+
+- Nos permite posicionar os elemtneops dentro da caixa.
+- Controle em uma dimentsão (Horizontal e vertical)
+- Alinhamento, direcionamento, ordenar e tamanhos.
+
+* flex-direction
+
+Qual a direção do flex: horizontal e vertical
+row | column
+
+* Alinhamento
+
+justify-content
+align-items
+
+
+** Grid
+
+- Posicionamento dos elementos dentro da caixa.
+- Posicionamento horizontal e vertical ao mesmo tempo.
+- Pode ser flexível ou fixo.
+- Cria espaços para os elementos filho habitarem.
