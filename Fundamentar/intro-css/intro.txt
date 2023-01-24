@@ -245,3 +245,104 @@ Usamos CSS para alterar cores do nosso documento.
 - Define um fundo para o nosso elemento
 - Sua área de atuação é a caixa toda
 - Por padrão, é transparente
+
+
+** trabalhando com Fontes
+
+* font-family
+
+- Tipo de fonte de um elemento
+- Lista de fontes e ordem de prioridade
+
+* font-weight
+
+- Peso da fonte.
+
+value: normal | bold | bolder | lighter | 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900
+
+
+* font-style
+
+- O estilo da fonte.
+
+value: normal | italic | oblique
+
+
+* font-size
+
+- É o tamanho da fonte.
+
+value: 16px; | 1.2em
+
+
+** Web fonts
+
+- @font-face
+- @import
+- link
+
+
+** font-variant
+
+- Variações na apresentação fonte
+
+font-variant: small-caps;
+
+
+** font-stretch
+
+- Alargamento ou encolhimento da fonte.
+- aceita palavra-chaves como: expanded, condensed, normal
+- aceita porcentagens de 50% a 200%
+
+
+** letter-spacing
+
+- Espaços entre caracteres.
+
+letter-spacing: 4px;
+
+
+** word-spacing
+
+- Espaços entre palavras
+
+word-spacing: 4px;
+
+
+** line-height
+
+- Espaços entre linhas
+- Pode ser com unidades ou sem unidades de medida
+- Comuns: 1.5 ou 2
+
+
+** text-transform
+
+- Transformação do texto.
+
+text-transform: uppercase | capitalize | lowercase | none
+
+
+** text-decoration
+
+- Aparência decorativa de um texto.
+line: underline | overline | line-through
+    * podemos aplicar mais de um valor
+style: wavy | dotted | double | dashed | solid
+
+
+** text-align
+
+- Alinhamento de um texto.
+
+text-align: center | left | right | justify
+
+
+** text-shadow
+
+- Sombra aplicada a um texto
+- Permite múltiplos valores
+
+text-shadow : 1px 1px 1px red,
+offset-x | offset-y | blur-radius | color
