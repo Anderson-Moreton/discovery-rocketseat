@@ -1,2 +1,67 @@
 O que são formulários?
 - são um dos principais pontos de interação entre um usuário e um web site ou aplicativo. Eles permitem que os usuários enviem dados para o web site. Na maior parte do tempo, os dados são enviados para o servidor da web, mas a página da web também pode interceptar para usá-los por conta própria.
+
+<form>
+    - Elemento que definirá um formulário
+    - É um container estilo <section> <footter>
+
+    Atributos básicos
+    - action
+    - method
+</form>
+
+
+** <fieldset>
+- agrupamento de campos
+- mesmo propósito
+- semântico
+- acessibilidade
+
+Atributos Especiais
+- disable
+    - desabilita todos os elementos internos
+    - não serão enviados ao submeter o formulário
+- form
+    - o id de um formulário ao qual esse fieldset pertence
+    - não precisa estar dentro do formulário
+- name
+    - nome do grupo
+- <legend>
+    - nome do agrupamento
+    - primeiro elemento dentro do fieldset
+
+
+** <label>
+- associar e identificar uma (ou mais) tag de entrada de dados.
+- acessibilidade
+- você poderá clicar para mudar o foco da entrada de dados.
+
+Atributos
+- for
+    - para fazer a conexão entre este label e a tag de entrada de dados.
+    - é feita via id do input
+    - só funciona com elementos específicos
+        - buttom, input (not hidden), meter, output, porgress, select, texarea
+
+
+** <buttom>
+- representa um botão
+- usado para enviar formulários
+- é estilizado pelo user agent (Navegador)
+
+Atributos
+-type
+    -submit
+    -reset
+    -buttom
+-autofocus
+-disable
+-name
+-value
+-form
+
+
+** <datalist>
+- Lista de valores como sugestão a uma tag <input>
+- Valores sugestivos e não obrigatórios
+- Usuário poderá selecionar um dos valores, ou colocar um valor diferente da sugestão.
