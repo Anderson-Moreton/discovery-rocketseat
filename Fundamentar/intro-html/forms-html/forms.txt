@@ -65,3 +65,50 @@ Atributos
 - Lista de valores como sugestão a uma tag <input>
 - Valores sugestivos e não obrigatórios
 - Usuário poderá selecionar um dos valores, ou colocar um valor diferente da sugestão.
+
+
+** <input>
+
+- Um dos mais usados em formulários
+- Aceita os mais diversos tipos de dados
+- Um dos mais poderosos e complexos
+- Elevado número de combinações
+
+Atributos
+- type
+- name
+- id
+
+Atributos Comuns
+
+autocomplete - quando os usuários digitam os primeiros caracteres em uma caixa de texto em um formulário, eles ver uma lista de possíveis correspondências entre entradas que eles digitou antes.
+
+autofocus - especifica que um elemento deve receber automaticamente o foco quando a página é carrega. Permitindo que o usuário comece digitar sem ter que manualmente dar o foco (clicar) no elemento.  
+
+disabled - desabilita completamente o campo, ou seja, ele não poderá ser editado e também não será lido ou enviado no submit do formulário.
+
+readonly - envia o valor para o formulário e também não pode editar. Outra diferença é que o aspeto predefinido dos dois é diferente.
+
+required - usado para indicar que um determinando campo de formulário é obrigatório para o envio do mesmo. Ao adicionar esse atributo a um campo de formulário, o navegador obriga o usuário a inserir dados naquele campo antes de enviar o formulário.
+
+placeholder - cumpre a função de disponibilizar ao usuário uma dica que descreve o valor esperado em um determinado campo de entrada.
+
+
+** <input type="password">
+
+- Colocar uma senha de maneira segura
+- Esconde o que está sendo digitado
+- O estilo da apresentação do campo, depende do User Agent.
+
+Atributos
+
+- minlength / maxlegth
+    - O número mínimo e/ou máximo de caracteres para este campo.
+
+- size 
+    - O número aceitável de caracteres que esse campo deverá conter.
+
+- pattern
+    - Expressão regular para validar o que está sendo digitado no campo.
+    - Altamente recomendado o uso de um padrão de segurança alta de senhas.
+    - exemplo: queremos que a senha contenha caracteres hexadecimais com limite de no mínimo 4 e no máximo 8 caracteres.
